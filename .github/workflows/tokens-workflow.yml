@@ -26,6 +26,6 @@ jobs:
     steps:
       - name: Print the purpose of run
         run: echo  ${{github.event.client_payload.filename}}
-      - uses: jsainz-veridas/git-auto-commit-action@v4
+      - uses: jsainz-veridas/design-tokens
         with:
           commit_message: ${{github.event.client_payload.filename}}
