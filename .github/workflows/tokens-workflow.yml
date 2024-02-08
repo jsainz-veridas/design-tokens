@@ -21,8 +21,9 @@ on:
         type: string
 
 jobs:
-  print-tag:
+  generate-and-commit-files:
     runs-on: ubuntu-latest
     steps:
       - name: Print the purpose of run
-        run: echo  ${{github.event.client_payload.filename}}
+        with:
+          commit_message: ${{github.event.client_payload.filename}}
