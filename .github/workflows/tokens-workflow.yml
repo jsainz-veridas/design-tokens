@@ -26,6 +26,6 @@ jobs:
     steps:
       - name: Print the purpose of run
         run: echo  ${{github.event.client_payload.filename}}
-      - uses: jsainz-veridas/design-tokens
+      - uses: jsainz-veridas/design-tokens@main
         with:
           commit_message: ${{github.event.client_payload.filename}}
