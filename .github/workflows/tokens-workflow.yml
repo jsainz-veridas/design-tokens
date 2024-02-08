@@ -26,7 +26,7 @@ jobs:
     steps:
       - name: Print the purpose of run
         run: echo  ${{github.event.client_payload.filename}}
-    script:
-      git add -A
-      git commit -m "${{github.event.client_payload.commitMessage}}"
-      git push --set-upstream origin master 
+  script:
+    git add -A
+    git commit -m "${{github.event.client_payload.commitMessage}}"
+    git push --set-upstream origin master 
