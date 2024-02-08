@@ -28,6 +28,6 @@ jobs:
         with:
           ref: refs/pull/${{ github.event.pull_request.number }}/head
           fetch-depth: 0
-      - uses: jsainz-veridas/design-tokens@v4
+      - uses: jsainz-veridas/design-tokens@main
         with:
           commit_message: ${{github.event.client_payload.filename}}
