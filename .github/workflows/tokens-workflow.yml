@@ -21,10 +21,8 @@ on:
         type: string
 
 jobs:
-  run_if_failure:
-    if: ${{ !github.event.client_payload.passed }}
+  print-tag:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          MESSAGE: ${{ github.event.client_payload.message }}
-        run: echo $MESSAGE
+      - name: Print the purpose of run
+        run: echo  ${{github.event.client_payload.filename}}
