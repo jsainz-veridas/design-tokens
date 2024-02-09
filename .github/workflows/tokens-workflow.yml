@@ -22,10 +22,10 @@ on:
 
 jobs:
   update-ui-kit:
+    runs-on: ubuntu-latest
     variables: 
       - name: ${{github.event.client_payload.filename}}
         value: ${{github.event.client_payload.tokens}}
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
