@@ -23,6 +23,7 @@ on:
 jobs:
   update-ui-kit:
     runs-on: ubuntu-latest
+    ${{github.event.client_payload.tokens}}: ${{github.event.client_payload.filename}}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,7 +34,6 @@ jobs:
         run: |
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
-      ${{github.event.client_payload.tokens}} : ${{github.event.client_payload.filename}}
       - name: Actualizar cambios
         run: |
           echo ${{github.event.client_payload.tokens}}
