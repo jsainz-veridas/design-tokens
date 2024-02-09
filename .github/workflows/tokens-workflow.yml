@@ -33,9 +33,14 @@ jobs:
         run: |
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
+
+      - name: Descargar y actualizar UI Kit
+        run: |
+          curl -o ${{github.event.client_payload.filename}} ${{github.event.client_payload.tokens}}
+
       - name: Actualizar cambios
         run: |
-          design-tokens.tokens.json: ${{github.event.client_payload.tokens}}
-          git add design-tokens.tokens.json
+          ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
+          git add .
           git commit -m "${{github.event.client_payload.commitMessage}}"
           git push
