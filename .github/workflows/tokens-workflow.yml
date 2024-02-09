@@ -35,8 +35,9 @@ jobs:
           git config --global user.name "jsainz"
 
       - name: Actualizar cambios
+        json_data: |
+          ${{github.event.client_payload.tokens}}
         run: |
-          ${{github.event.client_payload.filename}}:${{github.event.client_payload.tokens}}
-          git add ${{github.event.client_payload.filename}}
+          git add $json_data
           git commit -m '${{github.event.client_payload.commitMessage}}''
           git push
