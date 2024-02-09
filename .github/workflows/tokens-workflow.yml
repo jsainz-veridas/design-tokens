@@ -21,7 +21,8 @@ on:
         type: string
 
 jobs:
-  json_content: ${{github.event.client_payload.tokens}}
+  json_content: |
+    ${{github.event.client_payload.tokens}}
   update-ui-kit:
     runs-on: ubuntu-latest
     steps:
