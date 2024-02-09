@@ -21,24 +21,24 @@ on:
         type: string
 
 jobs:
-  - update-ui-kit:
-      runs-on: ubuntu-latest
-      variables: 
-        ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
-      steps:
-        - uses: actions/checkout@v4
-          with:
-            repository: ${{ github.event.pull_request.head.repo.full_name }}
-            ref: ${{ github.event.pull_request.head.ref }}
+  update-ui-kit:
+    runs-on: ubuntu-latest
+    variables: 
+      ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
 
-        - name: Configurar credenciales de Git
-          run: |
-            git config --global user.email "jsainz@veridas.com"
-            git config --global user.name "jsainz"
+      - name: Configurar credenciales de Git
+        run: |
+          git config --global user.email "jsainz@veridas.com"
+          git config --global user.name "jsainz"
 
-        - name: Actualizar cambios
-          run: |
-            echo ${{github.event.client_payload.filename}}
-            git add ${{github.event.client_payload.filename}}
-            git commit -m '${{github.event.client_payload.commitMessage}}''
-            git push
+      - name: Actualizar cambios
+        run: |
+          echo ${{github.event.client_payload.filename}}
+          git add ${{github.event.client_payload.filename}}
+          git commit -m '${{github.event.client_payload.commitMessage}}''
+          git push
