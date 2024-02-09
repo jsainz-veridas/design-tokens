@@ -30,7 +30,7 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
-          github_token: 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
+          github_token: ${{ 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 }}
 
       - name: Configurar credenciales de Git
         run: |
