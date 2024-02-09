@@ -37,7 +37,7 @@ jobs:
           git config --global user.name "jsainz"
       - name: Make changes to files
         run: |
-          echo "${{ github.event.client_payload.tokens }}" > design-tokens.tokens.json
+          ${{ github.event.client_payload.tokens }} > design-tokens.tokens.json
       - name: Actualizar cambios
         run: |
           git add .
