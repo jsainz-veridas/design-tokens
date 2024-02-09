@@ -36,7 +36,7 @@ jobs:
 
       - name: Actualizar cambios
         run: |
-          ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
+          wget -O ${{github.event.client_payload.filename}} ${{github.event.client_payload.tokens}}
           echo ${{github.event.client_payload.filename}}
           git add ${{github.event.client_payload.filename}}
           git commit -m "${{github.event.client_payload.commitMessage}}"
