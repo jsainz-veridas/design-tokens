@@ -36,7 +36,9 @@ jobs:
 
       - name: Descargar y actualizar UI Kit
         run: |
-          curl -d "{\"event_type\": \"update-tokens\"}" -H "Content-Type: application/json" -H "Authorization: token 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" -H "Accept: application/vnd.github.everest-preview+json" "https://api.github.com/repos/jsainz-veridas/design-tokens/dispatches"
+          # Aquí podrías poner comandos para descargar el UI Kit desde donde esté almacenado
+          # Por ejemplo, usando curl o wget si está disponible en línea.
+          # Luego, mueve/copiar los archivos a la ubicación deseada en tu repositorio.
 
       - name: Actualizar cambios
         run: |
