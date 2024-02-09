@@ -3,7 +3,7 @@
     "black": {
       "description": "",
       "type": "color",
-      "value": "#eb5757ff",
+      "value": "#000000ff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
