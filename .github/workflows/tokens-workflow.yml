@@ -36,8 +36,8 @@ jobs:
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
       - name: Make changes to files
-            run: |
-              echo ${{ github.event.client_payload.tokens }} > ${{ github.event.client_payload.filename }}
+        run: |
+          echo ${{ github.event.client_payload.tokens }} > ${{ github.event.client_payload.filename }}
       - name: Actualizar cambios
         run: |
           git add .
