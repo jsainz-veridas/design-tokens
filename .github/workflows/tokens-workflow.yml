@@ -34,9 +34,6 @@ jobs:
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
 
-      - name: Descargar y actualizar UI Kit
-        run: |
-
       - name: Actualizar cambios
         run: |
           git add .
