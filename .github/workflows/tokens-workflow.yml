@@ -19,9 +19,9 @@ on:
         description: 'Purpose of Run This Workflow?'
         required: true
         type: string
-    json_data: ${{github.event.client_payload.tokens}}
 
 jobs:
+  json_content: ${{github.event.client_payload.tokens}}
   update-ui-kit:
     runs-on: ubuntu-latest
     steps:
