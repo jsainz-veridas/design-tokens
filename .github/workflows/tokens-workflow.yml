@@ -36,7 +36,7 @@ jobs:
 
       - name: Actualizar cambios
         run: |
-          echo ${{github.event.client_payload.tokens}} > ${{github.event.client_payload.filename}}
-          git add ${{github.event.client_payload.filename}}
-          git commit -m "${{github.event.client_payload.commitMessage}}"
+          echo ${github.event.client_payload.tokens} > ${github.event.client_payload.filename}
+          git add ${github.event.client_payload.filename}
+          git commit -m "${github.event.client_payload.commitMessage}"
           git push
