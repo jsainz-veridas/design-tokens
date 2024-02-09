@@ -36,11 +36,10 @@ jobs:
 
       - name: Descargar y actualizar UI Kit
         run: |
-          curl -o ${{github.event.client_payload.filename}} ${{github.event.client_payload.tokens}}
+          curl -H "Accept: application/json" https://api.github.com/repos/jsainz-veridas/design-tokens/dispatches/get
 
       - name: Actualizar cambios
         run: |
-          ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
           git add .
           git commit -m "${{github.event.client_payload.commitMessage}}"
           git push
