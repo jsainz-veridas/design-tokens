@@ -36,9 +36,6 @@ jobs:
 
       - name: Descargar y actualizar UI Kit
         run: |
-          # Aquí podrías poner comandos para descargar el UI Kit desde donde esté almacenado
-          # Por ejemplo, usando curl o wget si está disponible en línea.
-          # Luego, mueve/copiar los archivos a la ubicación deseada en tu repositorio.
 
       - name: Actualizar cambios
         run: |
