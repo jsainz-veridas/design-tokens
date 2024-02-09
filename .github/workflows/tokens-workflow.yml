@@ -36,10 +36,10 @@ jobs:
 
       - name: Descargar y actualizar UI Kit
         run: |
-          curl -H "Content-Type: application/json" "https://api.github.com/repos/jsainz-veridas/design-tokens/dispatches"
+          curl -d "{\"event_type\": \"update-tokens\"}" -H "Content-Type: application/json" -H "Authorization: token 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" -H "Accept: application/vnd.github.everest-preview+json" "https://api.github.com/repos/jsainz-veridas/design-tokens/dispatches"
 
       - name: Actualizar cambios
         run: |
           git add .
           git commit -m "${{github.event.client_payload.commitMessage}}"
-          git diff --quiet || git push
+          git push
