@@ -29,11 +29,11 @@ jobs:
 
     - name: Configurar credenciales de Git
       run: |
-        git config --global user.email jsainz@veridas.com
-        git config --global user.name jsainz
+        git config --global user.email "jsainz@veridas.com"
+        git config --global user.name "jsainz"
 
     - name: Commit UI Kit updates
       run: |
         git add .
         git commit -m "${{github.event.client_payload.commitMessage}}"
-        git diff --quiet || git push
+        git push
