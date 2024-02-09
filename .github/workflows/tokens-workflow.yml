@@ -24,19 +24,18 @@ jobs:
   update-ui-kit:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-        with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: actions/checkout@v4
+          with:
+            repository: ${{ github.event.pull_request.head.repo.full_name }}
+            ref: ${{ github.event.pull_request.head.ref }}
 
-    - name: Configurar credenciales de Git
-      run: |
-        git config --global user.email "jsainz@veridas.com"
-        git config --global user.name "jsainz"
+      - name: Configurar credenciales de Git
+        run: |
+          git config --global user.email "jsainz@veridas.com"
+          git config --global user.name "jsainz"
 
-    - name: Actualizar cambios
-      run: |
-        git add .
-        git commit -m "${{github.event.client_payload.commitMessage}}"
-        git push
+      - name: Actualizar cambios
+        run: |
+          git add .
+          git commit -m "${{github.event.client_payload.commitMessage}}"
+          git push
