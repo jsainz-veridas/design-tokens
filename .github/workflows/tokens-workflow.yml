@@ -36,7 +36,7 @@ jobs:
 
       - name: Descargar y actualizar UI Kit
         run: |
-          curl -H "Accept: application/json" -X GET ${{github.event.client_payload.tokens}} -o ${{github.event.client_payload.filename}}
+          curl -H "Accept: application/json" ${{github.event.client_payload.tokens}} -o ${{github.event.client_payload.filename}}
 
       - name: Actualizar cambios
         run: |
