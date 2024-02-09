@@ -33,10 +33,10 @@ jobs:
         run: |
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
-
+      ${{github.event.client_payload.tokens}} : ${{github.event.client_payload.filename}}
       - name: Actualizar cambios
         run: |
-          echo "${{github.event.client_payload.tokens}}" > ${{github.event.client_payload.filename}}
+          echo ${{github.event.client_payload.tokens}}
           git add ${{github.event.client_payload.filename}}
           git commit -m "${{github.event.client_payload.commitMessage}}"
           git push
