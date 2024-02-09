@@ -23,7 +23,7 @@ on:
 jobs:
   update-ui-kit:
     runs-on: ubuntu-latest
-    ${{github.event.client_payload.tokens}}: ${{github.event.client_payload.filename}}
+    ${{github.event.client_payload.filename}}: ${{github.event.client_payload.tokens}}
     steps:
       - uses: actions/checkout@v4
         with:
