@@ -34,11 +34,9 @@ jobs:
           git config --global user.email "jsainz@veridas.com"
           git config --global user.name "jsainz"
 
-      - name: Contenido del fichero json
+      - name: Actualizar cambios
         json_data: |
           ${{github.event.client_payload.tokens}}
-
-      - name: Actualizar cambios
         run: |
           echo json_data
           git add .
