@@ -21,7 +21,6 @@ on:
         type: string
 
 jobs:
-  jobs:
   update-ui-kit:
     runs-on: ubuntu-latest
     steps:
