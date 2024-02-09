@@ -36,6 +36,6 @@ jobs:
       - name: Actualizar cambios
         run: |
           design-tokens.tokens.json: ${{github.event.client_payload.tokens}}
-          git add .
+          git add design-tokens.tokens.json
           git commit -m "${{github.event.client_payload.commitMessage}}"
           git push
