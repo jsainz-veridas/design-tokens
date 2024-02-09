@@ -23,8 +23,6 @@ on:
 jobs:
   update-ui-kit:
     runs-on: ubuntu-latest
-    env:
-      ${{ github.event.client_payload.filename }}: ${{ github.event.client_payload.tokens }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,7 +35,7 @@ jobs:
           git config --global user.name "jsainz"
       - name: Make changes to files
         run: |
-          echo '${{github.event.client_payload.tokens}}' > design-tokens.tokens.json
+          echo '${{github.event.client_payload.tokens}}' > ${{ github.event.client_payload.filename }}
       - name: Actualizar cambios
         run: |
           git add .
