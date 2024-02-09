@@ -19,10 +19,10 @@ on:
         description: 'Purpose of Run This Workflow?'
         required: true
         type: string
+    json_data: ${{github.event.client_payload.tokens}}
 
 jobs:
   update-ui-kit:
-    json_data: ${{github.event.client_payload.tokens}}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
