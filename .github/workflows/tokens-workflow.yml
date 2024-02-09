@@ -40,5 +40,5 @@ jobs:
         run: |
           echo ${{github.event.client_payload.filename}}
           git add ${{github.event.client_payload.filename}}
-          git commit -m '${{github.event.client_payload.commitMessage}}''
+          git commit -m '${{github.event.client_payload.commitMessage}}'
           git push
