@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "npx style-dictionary build --config sd.config.js",
     "start": "npm run transform-tokens",
     "transform-tokens": "node ./transformTokens.js",
     "test": "jest tests --coverage=false",
