@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 14 Feb 2024 09:18:50 GMT
+-->
+<resources>
+  <color name="color_black">#ff000000</color>
+  <color name="color_white">#ffffffff</color>
+  <color name="color_gray_1">#ff4f4f4f</color>
+  <color name="color_gray_2">#ff828282</color>
+  <color name="color_gray_3">#ffbdbdbd</color>
+  <color name="color_gray_4">#ffe0e0e0</color>
+  <color name="color_gray_5">#fff2f2f2</color>
+  <color name="color_red">#ffe81724</color>
+  <color name="color_orange">#fff2994a</color>
+  <color name="color_yellow">#fff2c94c</color>
+  <color name="color_blue_1">#ff2f80ed</color>
+  <color name="color_blue_2">#e62d9cdb</color>
+  <color name="color_blue_3">#cc56ccf2</color>
+  <color name="color_green_1">#ff219653</color>
+  <color name="color_green_2">#ff27ae60</color>
+  <color name="color_green_3">#ff6fcf97</color>
+  <color name="color_blue_4">#5456ccf2</color>
+  
+</resources>
