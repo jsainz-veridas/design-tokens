@@ -845,6 +845,85 @@
             }
           }
         }
+      },
+      "radius": {
+        "button": {
+          "type": "dimension",
+          "value": 8,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:968",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sizes": {
+        "button-primary-width": {
+          "type": "dimension",
+          "value": 283,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:970",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-primary-height": {
+          "type": "dimension",
+          "value": 48,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:971",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-secondary-width": {
+          "type": "dimension",
+          "value": 198,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:972",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-secondary-height": {
+          "type": "dimension",
+          "value": 48,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Light",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:973",
+              "exportKey": "variables"
+            }
+          }
+        }
       }
     },
     "dark": {
@@ -1462,6 +1541,85 @@
                 "ALL_SCOPES"
               ],
               "variableId": "VariableID:6887:965",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "radius": {
+        "button": {
+          "type": "dimension",
+          "value": 8,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:968",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "sizes": {
+        "button-primary-width": {
+          "type": "dimension",
+          "value": 283,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:970",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-primary-height": {
+          "type": "dimension",
+          "value": 48,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:971",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-secondary-width": {
+          "type": "dimension",
+          "value": 198,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:972",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "button-secondary-height": {
+          "type": "dimension",
+          "value": 48,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Dark",
+              "collection": "Tokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:6896:973",
               "exportKey": "variables"
             }
           }
