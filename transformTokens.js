@@ -51,7 +51,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
       buildPath: "tokens/scss/",
       files: [
         {
-          destination: "_variables.scss",
+          destination: "theme.scss",
           format: "scss/variables",
           filter: "validToken",
         },
@@ -62,7 +62,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
       buildPath: "tokens/less/",
       files: [
         {
-          destination: "_variables.less",
+          destination: "theme.less",
           format: "less/variables",
           filter: "validToken",
         },
@@ -73,7 +73,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
       buildPath: "tokens/css/",
       files: [
         {
-          destination: "_variables.css",
+          destination: "theme.css",
           format: "css/variables",
           filter: "validToken",
           options: {

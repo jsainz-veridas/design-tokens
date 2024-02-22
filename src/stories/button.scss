@@ -1,0 +1,91 @@
+@import "tokens/scss/theme.scss";
+
+.icon{
+  margin-right: 10px;
+}
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: $tokens-light-padding-button;
+}
+.storybook-button--primary {
+  color: $tokens-light-color-button-primary-default-label;
+  background-color: $tokens-light-color-button-primary-default-background;
+  border: 1px solid $tokens-light-color-button-primary-default-border;
+}
+.storybook-button--primary .icon {
+  color:$tokens-light-color-button-primary-default-icon;
+}
+.storybook-button--primary:hover {
+  color: $tokens-light-color-button-primary-hover-label;
+  background-color: $tokens-light-color-button-primary-hover-background;
+  border: 1px solid $tokens-light-color-button-primary-hover-border;
+}
+.storybook-button--primary:hover .icon{
+  color:$tokens-light-color-button-primary-hover-icon;
+}
+.storybook-button--primary:focus {
+  color: $tokens-light-color-button-primary-focus-label;
+  background-color: $tokens-light-color-button-primary-focus-background;
+  border: 1px solid $tokens-light-color-button-primary-focus-border;
+}
+.storybook-button--primary:focus .icon{
+  color:$tokens-light-color-button-primary-focus-icon;
+}
+.storybook-button--primary:disabled {
+  color: $tokens-light-color-button-primary-disabled-label;
+  background-color: $tokens-light-color-button-primary-disabled-background;
+  border: 1px solid $tokens-light-color-button-primary-disabled-border;
+}
+.storybook-button--primary:disabled .icon{
+  color:$tokens-light-color-button-primary-disabled-icon;
+}
+.storybook-button--secondary {
+  color: $tokens-light-color-button-secondary-default-label;
+  background-color: $tokens-light-color-button-secondary-default-background;
+  border: 1px solid $tokens-light-color-button-secondary-default-border;
+}
+.storybook-button--secondary .icon{
+  color:$tokens-light-color-button-secondary-default-icon;
+}
+.storybook-button--secondary:hover {
+  color: $tokens-light-color-button-secondary-hover-label;
+  background-color: $tokens-light-color-button-secondary-hover-background;
+  border: 1px solid $tokens-light-color-button-secondary-hover-border;
+}
+.storybook-button--secondary:hover .icon{
+  color:$tokens-light-color-button-secondary-hover-icon;
+}
+.storybook-button--secondary:focus {
+  color: $tokens-light-color-button-secondary-focus-label;
+  background-color: $tokens-light-color-button-secondary-focus-background;
+  border: 1px solid $tokens-light-color-button-secondary-focus-border;
+}
+.storybook-button--secondary:focus .icon{
+  color:$tokens-light-color-button-secondary-focus-icon;
+}
+.storybook-button--secondary:disabled {
+  color: $tokens-light-color-button-secondary-disabled-label;
+  background-color: $tokens-light-color-button-secondary-disabled-background;
+  border: 1px solid $tokens-light-color-button-secondary-disabled-border;
+}
+.storybook-button--secondary:disabled .icon{
+  color:$tokens-light-color-button-secondary-disabled-icon;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
