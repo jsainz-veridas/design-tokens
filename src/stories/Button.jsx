@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.scss';
+import './button.css';
 import { FaUserTie } from "react-icons/fa6";
 
 /**
