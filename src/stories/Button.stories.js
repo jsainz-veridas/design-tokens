@@ -1,6 +1,4 @@
-import { expect } from '@storybook/test';
 import { Button } from './Button';
-import { within, userEvent } from '@storybook/testing-library';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
@@ -22,26 +20,27 @@ export default {
 export const Primary = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'Ask an expert',
+    size: 'medium'
   },
+  parameters: {
+    design:{
+      type: "figspec",
+      url: "https://www.figma.com/file/O6KumRUV55PpwikpMoB904/Figmagic-%E2%80%94-Prueba_Tokens?type=design&node-id=6878-514&mode=design&t=VRsDunqC0VujMQbE-4",
+    },
+  }
 };
 
 export const Secondary = {
   args: {
-    label: 'Button',
+    primary: false,
+    label: 'Ask an expert',
+    size: 'medium'
   },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
+  parameters: {
+    design:{
+      type: "figspec",
+      url: "https://www.figma.com/file/O6KumRUV55PpwikpMoB904/Figmagic-%E2%80%94-Prueba_Tokens?type=design&node-id=6878-565&mode=design&t=uzMHqYEiruGj4uuB-4",
+    },
+  }
 };

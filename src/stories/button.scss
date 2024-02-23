@@ -5,18 +5,22 @@
 }
 .storybook-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   border: 0;
-  border-radius: 3em;
+  border-radius: $tokens-light-radius-button;
   cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 24px;
   padding: $tokens-light-padding-button;
 }
 .storybook-button--primary {
   color: $tokens-light-color-button-primary-default-label;
   background-color: $tokens-light-color-button-primary-default-background;
   border: 1px solid $tokens-light-color-button-primary-default-border;
+  width: $tokens-light-sizes-button-primary-width;
+  height: $tokens-light-sizes-button-primary-height;
 }
 .storybook-button--primary .icon {
   color:$tokens-light-color-button-primary-default-icon;
@@ -29,10 +33,18 @@
 .storybook-button--primary:hover .icon{
   color:$tokens-light-color-button-primary-hover-icon;
 }
+.storybook-button--primary:active {
+  color: $tokens-light-color-button-primary-pressed-label;
+  background-color: $tokens-light-color-button-primary-pressed-background;
+  border: 1px solid $tokens-light-color-button-primary-pressed-border;
+}
+.storybook-button--primary:active .icon{
+  color:$tokens-light-color-button-primary-pressed-icon;
+}
 .storybook-button--primary:focus {
   color: $tokens-light-color-button-primary-focus-label;
   background-color: $tokens-light-color-button-primary-focus-background;
-  border: 1px solid $tokens-light-color-button-primary-focus-border;
+  border: 2px solid $tokens-light-color-button-primary-focus-border;
 }
 .storybook-button--primary:focus .icon{
   color:$tokens-light-color-button-primary-focus-icon;
@@ -49,6 +61,8 @@
   color: $tokens-light-color-button-secondary-default-label;
   background-color: $tokens-light-color-button-secondary-default-background;
   border: 1px solid $tokens-light-color-button-secondary-default-border;
+  width: $tokens-light-sizes-button-secondary-width;
+  height: $tokens-light-sizes-button-secondary-height;
 }
 .storybook-button--secondary .icon{
   color:$tokens-light-color-button-secondary-default-icon;
@@ -61,10 +75,18 @@
 .storybook-button--secondary:hover .icon{
   color:$tokens-light-color-button-secondary-hover-icon;
 }
+.storybook-button--secondary:active {
+  color: $tokens-light-color-button-secondary-pressed-label;
+  background-color: $tokens-light-color-button-secondary-pressed-background;
+  border: 1px solid $tokens-light-color-button-secondary-pressed-border;
+}
+.storybook-button--secondary:active .icon{
+  color:$tokens-light-color-button-secondary-pressed-icon;
+}
 .storybook-button--secondary:focus {
   color: $tokens-light-color-button-secondary-focus-label;
   background-color: $tokens-light-color-button-secondary-focus-background;
-  border: 1px solid $tokens-light-color-button-secondary-focus-border;
+  border: 2px solid $tokens-light-color-button-secondary-focus-border;
 }
 .storybook-button--secondary:focus .icon{
   color:$tokens-light-color-button-secondary-focus-icon;
@@ -79,13 +101,10 @@
 }
 .storybook-button--small {
   font-size: 12px;
-  padding: 10px 16px;
 }
 .storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
+  font-size: 16px;
 }
 .storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+  font-size: 20px;
 }

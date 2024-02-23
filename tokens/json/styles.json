@@ -54,6 +54,11 @@
   "TokensLightColorButtonSecondaryHoverBorder": "#000d44ff",
   "TokensLightColorButtonSecondaryDefaultBackground": "#ffffffff",
   "TokensLightPaddingButton": "12px 32px",
+  "TokensLightRadiusButton": 8,
+  "TokensLightSizesButtonPrimaryWidth": 283,
+  "TokensLightSizesButtonPrimaryHeight": 48,
+  "TokensLightSizesButtonSecondaryWidth": 198,
+  "TokensLightSizesButtonSecondaryHeight": 48,
   "TokensDarkColorButtonPrimaryDefaultBackground": "#3995ecff",
   "TokensDarkColorButtonPrimaryDefaultLabel": "#00051aff",
   "TokensDarkColorButtonPrimaryHoverBackground": "#ff7777ff",
@@ -94,5 +99,10 @@
   "TokensDarkColorButtonSecondaryHoverIcon": "#3995ecff",
   "TokensDarkColorButtonSecondaryHoverBorder": "#3995ecff",
   "TokensDarkColorButtonSecondaryDefaultBackground": "#00051aff",
-  "TokensDarkPaddingButton": "12px 32px"
+  "TokensDarkPaddingButton": "12px 32px",
+  "TokensDarkRadiusButton": 8,
+  "TokensDarkSizesButtonPrimaryWidth": 283,
+  "TokensDarkSizesButtonPrimaryHeight": 48,
+  "TokensDarkSizesButtonSecondaryWidth": 198,
+  "TokensDarkSizesButtonSecondaryHeight": 48
 }
