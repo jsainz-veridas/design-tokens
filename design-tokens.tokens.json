@@ -226,1402 +226,852 @@
     }
   },
   "tokens": {
-    "light": {
-      "color": {
-        "button-primary-default-background": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6878:702",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6878:703",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-background": {
-          "type": "color",
-          "value": "{colors.color-coral-light}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:912",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-label": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:913",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-background": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:914",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:915",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-background": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:916",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:917",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-border": {
-          "type": "color",
-          "value": "{colors.color-coral}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:918",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-background": {
-          "type": "color",
-          "value": "{colors.color-gray}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:919",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:920",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:921",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-border": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:922",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:923",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-border": {
-          "type": "color",
-          "value": "{colors.color-coral-light}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:924",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:925",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-border": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:926",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:927",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:928",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-border": {
-          "type": "color",
-          "value": "{colors.color-gray}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:929",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-background": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:930",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:931",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:932",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-border": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:933",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-background": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:934",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:935",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:936",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-border": {
-          "type": "color",
-          "value": "{colors.color-coral}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:937",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-background": {
-          "type": "color",
-          "value": "{colors.color-gray}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:938",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-label": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:939",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:941",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-border": {
-          "type": "color",
-          "value": "{colors.color-gray}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:942",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-label": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:943",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-icon": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:944",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-border": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:945",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-background": {
-          "type": "color",
-          "value": "{colors.color-coral-light}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:946",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-label": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:947",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-icon": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:948",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-border": {
-          "type": "color",
-          "value": "{colors.color-navy}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:949",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-background": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:950",
-              "exportKey": "variables"
-            }
+    "color": {
+      "button-primary-default-background": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6878:702",
+            "exportKey": "variables"
           }
         }
       },
-      "padding": {
-        "button": {
-          "type": "string",
-          "value": "12px 32px",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6887:965",
-              "exportKey": "variables"
-            }
+      "button-primary-default-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6878:703",
+            "exportKey": "variables"
           }
         }
       },
-      "radius": {
-        "button": {
-          "type": "dimension",
-          "value": 8,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:968",
-              "exportKey": "variables"
-            }
+      "button-primary-hover-background": {
+        "type": "color",
+        "value": "{colors.color-coral-light}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:912",
+            "exportKey": "variables"
           }
         }
       },
-      "sizes": {
-        "button-primary-width": {
-          "type": "dimension",
-          "value": 283,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:970",
-              "exportKey": "variables"
-            }
+      "button-primary-hover-label": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:913",
+            "exportKey": "variables"
           }
-        },
-        "button-primary-height": {
-          "type": "dimension",
-          "value": 48,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:971",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "button-secondary-pressed-background": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:914",
+            "exportKey": "variables"
           }
-        },
-        "button-secondary-width": {
-          "type": "dimension",
-          "value": 198,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:972",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "button-secondary-pressed-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:915",
+            "exportKey": "variables"
           }
-        },
-        "button-secondary-height": {
-          "type": "dimension",
-          "value": 48,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Light",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:973",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "button-secondary-focus-background": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:916",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-focus-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:917",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-focus-border": {
+        "type": "color",
+        "value": "{colors.color-coral}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:918",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-disabled-background": {
+        "type": "color",
+        "value": "{colors.color-gray}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:919",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-disabled-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:920",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-default-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:921",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-default-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:922",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-hover-icon": {
+        "type": "color",
+        "value": "{colors.color-black}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:923",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-hover-border": {
+        "type": "color",
+        "value": "{colors.color-coral-light}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:924",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-pressed-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:925",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-pressed-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:926",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-focus-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:927",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-disabled-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:928",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-disabled-border": {
+        "type": "color",
+        "value": "{colors.color-gray}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:929",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-pressed-background": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:930",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-pressed-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:931",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-pressed-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:932",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-pressed-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:933",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-focus-background": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:934",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-focus-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:935",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-focus-icon": {
+        "type": "color",
+        "value": "{colors.color-black}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:936",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-focus-border": {
+        "type": "color",
+        "value": "{colors.color-coral}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:937",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-disabled-background": {
+        "type": "color",
+        "value": "{colors.color-gray}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:938",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-disabled-label": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:939",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-disabled-icon": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:941",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-primary-disabled-border": {
+        "type": "color",
+        "value": "{colors.color-gray}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:942",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-default-label": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:943",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-default-icon": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:944",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-default-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:945",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-hover-background": {
+        "type": "color",
+        "value": "{colors.color-coral-light}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:946",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-hover-label": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:947",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-hover-icon": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:948",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-hover-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:949",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-secondary-default-background": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6880:950",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "icon": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:200",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "text": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:201",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card-border": {
+        "type": "color",
+        "value": "{colors.color-navy}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:202",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card-background": {
+        "type": "color",
+        "value": "{colors.color-white}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:203",
+            "exportKey": "variables"
           }
         }
       }
     },
-    "dark": {
-      "color": {
-        "button-primary-default-background": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6878:702",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6878:703",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-background": {
-          "type": "color",
-          "value": "{colors.color-coral}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:912",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-label": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:913",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-background": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:914",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:915",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-background": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:916",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:917",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-border": {
-          "type": "color",
-          "value": "{colors.color-coral-light}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:918",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-background": {
-          "type": "color",
-          "value": "{colors.color-navy-10}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:919",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:920",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:921",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-default-border": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:922",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:923",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-hover-border": {
-          "type": "color",
-          "value": "{colors.color-coral}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:924",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:925",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-pressed-border": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:926",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-focus-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:927",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:928",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-disabled-border": {
-          "type": "color",
-          "value": "{colors.color-navy-10}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:929",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-background": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:930",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:931",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:932",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-pressed-border": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:933",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-background": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:934",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:935",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-icon": {
-          "type": "color",
-          "value": "{colors.color-white}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:936",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-focus-border": {
-          "type": "color",
-          "value": "{colors.color-coral-light}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:937",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-background": {
-          "type": "color",
-          "value": "{colors.color-navy-10}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:938",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-label": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:939",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-icon": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:941",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-primary-disabled-border": {
-          "type": "color",
-          "value": "{colors.color-navy-10}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:942",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-label": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:943",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-icon": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:944",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-border": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:945",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-background": {
-          "type": "color",
-          "value": "{colors.color-coral}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:946",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-label": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:947",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-icon": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:948",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-hover-border": {
-          "type": "color",
-          "value": "{colors.color-blue-40}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:949",
-              "exportKey": "variables"
-            }
-          }
-        },
-        "button-secondary-default-background": {
-          "type": "color",
-          "value": "{colors.color-black}",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6880:950",
-              "exportKey": "variables"
-            }
+    "padding": {
+      "button": {
+        "type": "string",
+        "value": "12px 32px",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6887:965",
+            "exportKey": "variables"
           }
         }
       },
-      "padding": {
-        "button": {
-          "type": "string",
-          "value": "12px 32px",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6887:965",
-              "exportKey": "variables"
-            }
+      "card": {
+        "type": "string",
+        "value": "10px",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:204",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "radius": {
+      "button": {
+        "type": "dimension",
+        "value": 8,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6896:968",
+            "exportKey": "variables"
           }
         }
       },
-      "radius": {
-        "button": {
-          "type": "dimension",
-          "value": 8,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:968",
-              "exportKey": "variables"
-            }
+      "card": {
+        "type": "dimension",
+        "value": 10,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:205",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "sizes": {
+      "button-primary-width": {
+        "type": "dimension",
+        "value": 283,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6896:970",
+            "exportKey": "variables"
           }
         }
       },
-      "sizes": {
-        "button-primary-width": {
-          "type": "dimension",
-          "value": 283,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:970",
-              "exportKey": "variables"
-            }
+      "button-primary-height": {
+        "type": "dimension",
+        "value": 48,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6896:971",
+            "exportKey": "variables"
           }
-        },
-        "button-primary-height": {
-          "type": "dimension",
-          "value": 48,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:971",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "button-secondary-width": {
+        "type": "dimension",
+        "value": 198,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6896:972",
+            "exportKey": "variables"
           }
-        },
-        "button-secondary-width": {
-          "type": "dimension",
-          "value": 198,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:972",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "button-secondary-height": {
+        "type": "dimension",
+        "value": 48,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6896:973",
+            "exportKey": "variables"
           }
-        },
-        "button-secondary-height": {
-          "type": "dimension",
-          "value": 48,
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "mode": "Dark",
-              "collection": "Tokens",
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "variableId": "VariableID:6896:973",
-              "exportKey": "variables"
-            }
+        }
+      },
+      "image-width": {
+        "type": "dimension",
+        "value": 150,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:206",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "image-max-width": {
+        "type": "dimension",
+        "value": 180,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:207",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "image-height": {
+        "type": "dimension",
+        "value": 160,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:208",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "font": {
+      "body": {
+        "type": "string",
+        "value": "\"Public Sans\", sans-serif;",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Light",
+            "collection": "Tokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:6921:209",
+            "exportKey": "variables"
           }
         }
       }
