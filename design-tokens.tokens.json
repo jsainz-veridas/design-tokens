@@ -1062,7 +1062,7 @@
     "font": {
       "body": {
         "type": "string",
-        "value": "\"Public Sans\", sans-serif;",
+        "value": "\"Public Sans\", sans-serif",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "mode": "Light",
