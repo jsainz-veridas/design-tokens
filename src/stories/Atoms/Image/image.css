@@ -1,0 +1,8 @@
+@import "../../../../tokens/css/theme.css";
+
+.storybook-image {
+    width: var(--tokens-sizes-image-width);
+    height: var(--tokens-sizes-image-height);
+    max-width: var(--tokens-sizes-image-max-width);
+    object-fit: contain;
+}

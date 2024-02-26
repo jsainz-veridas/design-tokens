@@ -1,0 +1,7 @@
+@import "../../../../tokens/css/theme.css";
+
+.storybook-text {
+    font-family: var(--tokens-font-body);
+    font-weight: 500;
+    color: var(--tokens-color-text);
+}

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 22 Feb 2024 12:31:20 GMT
+// Generated on Fri, 23 Feb 2024 12:43:12 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -75,46 +75,10 @@
 #000d44ff,
 #000d44ff,
 #ffffffff,
-#3995ecff,
-#00051aff,
-#ff7777ff,
-#3995ecff,
-#3995ecff,
-#00051aff,
-#3995ecff,
-#00051aff,
-#fd9191ff,
-#e6e7edff,
-#00051aff,
-#00051aff,
-#3995ecff,
-#ffffffff,
-#ff7777ff,
-#00051aff,
-#3995ecff,
-#00051aff,
-#00051aff,
-#e6e7edff,
-#3995ecff,
-#00051aff,
-#00051aff,
-#3995ecff,
-#3995ecff,
-#00051aff,
-#ffffffff,
-#fd9191ff,
-#e6e7edff,
-#00051aff,
-#00051aff,
-#e6e7edff,
-#3995ecff,
-#3995ecff,
-#3995ecff,
-#ff7777ff,
-#3995ecff,
-#3995ecff,
-#3995ecff,
-#00051aff
+#000d44ff,
+#000d44ff,
+#000d44ff,
+#ffffffff
     ];
   });
 

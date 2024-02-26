@@ -43,4 +43,5 @@ Button.defaultProps = {
   backgroundColor: null,
   primary: false,
   size: 'medium',
+  label:'Ask an expert',
 };
