@@ -2,7 +2,7 @@
   "colors": {
     "color-navy": {
       "type": "color",
-      "value": "#9747ffff",
+      "value": "#000d44ff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
