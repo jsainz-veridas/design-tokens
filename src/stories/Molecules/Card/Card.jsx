@@ -12,7 +12,7 @@ import imageFile from '../../assets/selfie.png';
 export const Card = ({ backgroundColor, borderColor, textCard, textButton, ...props }) => {
   return (
     <div className='storybook-card'
-      style={(backgroundColor, borderColor && { backgroundColor, borderColor })}
+      style={(backgroundColor || borderColor) && { backgroundColor, borderColor }}
       {...props}>
       <Icon id="card-icon"></Icon>
       <Image source={imageFile} id="card-image"></Image>

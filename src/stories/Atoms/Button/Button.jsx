@@ -6,13 +6,13 @@ import { FaUserTie } from "react-icons/fa6";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export const Button = ({ primary, backgroundColor, color, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor }}
+      style={(backgroundColor || color) && { backgroundColor, color }}
       {...props}
     >
       <FaUserTie className='icon' />{label}
@@ -21,26 +21,16 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
 };
 
 Button.propTypes = {
-  /**
-   * Is this the principal call to action on the page?
-   */
   primary: PropTypes.bool,
-  /**
-   * What background color to use
-   */
   backgroundColor: PropTypes.string,
-  /**
-   * How large should the button be?
-   */
+  color: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  /**
-   * Button contents
-   */
   label: PropTypes.string.isRequired,
 };
 
 Button.defaultProps = {
   backgroundColor: null,
+  color: null,
   primary: false,
   size: 'medium',
   label:'Ask an expert',
