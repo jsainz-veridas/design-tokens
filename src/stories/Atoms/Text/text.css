@@ -4,4 +4,6 @@
     font-family: var(--tokens-font-body);
     font-weight: 500;
     color: var(--tokens-color-text);
+    max-width: 300px;
+    text-align: center;
 }
